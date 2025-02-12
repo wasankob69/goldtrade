@@ -1,6 +1,6 @@
 from flask import Flask, request
 import requests
-import config  # ดึงค่าจาก config.py
+import config  
 
 app = Flask(__name__)
 
